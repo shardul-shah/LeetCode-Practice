@@ -1,3 +1,5 @@
+# LeetCode Link: https://leetcode.com/problems/two-sum/
+
 class Solution:
     def twoSum(self, nums, target):
         for i in range(0,len(nums)):
