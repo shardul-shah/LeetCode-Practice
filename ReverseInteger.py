@@ -1,3 +1,5 @@
+# LeetCode Link: https://leetcode.com/problems/reverse-integer
+
 class Solution:
     def reverse(self, x):
         number = x
@@ -12,7 +14,7 @@ class Solution:
         
         while (number >= 1):
             reversed_num = reversed_num + (int(number%10)*(10**counter))
-            if reversed_num > (2**31 - 1):
+            if reversed_num > (2**31 - 1): # if overflow
                 return 0
             number/=10
             counter-=1
