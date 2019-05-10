@@ -28,7 +28,6 @@ def main():
     solution = Solution()
 
     print("Input Numbers: ", test_num[0], test_num[1], test_num[2], test_num[3], "\nAnswers:", solution.reverse(test_num[0]), solution.reverse(test_num[1]), solution.reverse(test_num[2]), solution.reverse(test_num[3]))
-    #print(solution.reverse(test_num[1]))
 
 if __name__ == "__main__":
     main()
