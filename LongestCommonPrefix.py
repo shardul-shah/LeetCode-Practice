@@ -1,4 +1,6 @@
 # LeetCode Link: https://leetcode.com/problems/longest-common-prefix/
+# FIXME: FUTURE GOAL: Simplify code even more to use only 1 for loop and keeping track of the index at which the common prefix changes...
+# ... seems to be a simpler solution.
 
 class Solution:
     def longestCommonPrefix(self, strs):
