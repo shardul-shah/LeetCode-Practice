@@ -4,10 +4,7 @@ class Solution:
     def isPalindrome(self, x):
         num_as_char_arr = list(str(x))
         
-        if num_as_char_arr == num_as_char_arr[::-1]:
-            return True
-        
-        return False
+        return num_as_char_arr == num_as_char_arr[::-1]
 
 def main():
 	solution = Solution()
